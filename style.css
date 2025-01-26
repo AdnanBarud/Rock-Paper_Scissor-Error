@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* this for heading */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    margin-bottom: 4rem;
+
+}
+
+/* for images */
+img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-size: auto;
+    object-fit: cover;
+
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+ 
+}
+.choice{
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: #081b31;
+    cursor: pointer;
+}
+
+
+/* score */
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    font-size: 2rem;
+    margin-top: 8rem;
+    gap: 70px;
+    text-align: center;
+}
+
+
+/* this for won,loose,draw */
+.hide{
+    display: none;
+}
+.message {
+    margin-top: 3rem;
+}
+.msg{
+    display: inline;
+    font-size: 3rem;
+    background-color: #081b31;
+    color: white;
+    margin-top: 1.5rem;
+    width: 100px;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+    
+}
+
